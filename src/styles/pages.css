@@ -1,0 +1,42 @@
+.Non_Clinician_Page
+{
+   display: grid;
+   place-items: center;
+   height:100vh;
+
+}
+p
+{
+    color: brown;
+}
+.Non_Clinician_Page #page
+{
+    border-color: aliceblue;
+}
+
+.droppable-area {
+    width: 300px;
+    height: 200px;
+    border: 2px dashed #ccc;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .droppable-hover {
+    border-color: #007bff;
+    background-color: #e0f7ff;
+  }
+  .non-clinician-droppable
+  {
+    border: 2px solid black; /* Corrected border style and width */
+  width: 300px; /* Example width */
+  height: 200px; /* Example height */
+  background-color: #f9f9f9; /* Example background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  }
