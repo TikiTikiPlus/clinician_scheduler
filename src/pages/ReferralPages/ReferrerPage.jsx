@@ -146,7 +146,7 @@ const ReferralForm = () => {
           <input type="file" name="attachments" onChange={handleFileChange} />
         </label>
       </fieldset>
-
+    {/* If submitted, must be put into a referral database */}
       <button type="submit">Submit Referral</button>
     </form>
   );
