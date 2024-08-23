@@ -5,7 +5,7 @@ import Clinician from './pages/ClinicianPages/Clinician';
 import NonClinician from './pages/NonClinicianPages/Non-Clinician';
 import * as React from "react";
 import ReferralForm from './pages/ReferralPages/ReferrerPage';
-import GridTable from './components/cliniciangrid';
+import GridTable from './pages/ClinicianPages/cliniciangrid';
 //import { createRoot } from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
